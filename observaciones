@@ -1,0 +1,25 @@
+Para activar el entorno virtual con PowerShell se necesita hacer lo siguiente
+
+1) Iniciar PowerShell con privilegios de Administrator
+
+2) Correr el siguiente commando: Set-ExecutionPolicy Unrestricted
+
+3) Rerun the activation command: . .\myvenv\Scripts\activate.ps1
+
+
+################
+
+Asi se crea el proyecto
+
+django-admin.exe startproject mysite .
+
+mysite es el nombre del proyecto. igual es importante que al final esté presente el punto (.). El punto . es crucial porque le dice al script que instale Django en el directorio actual (para el cual el punto . sirve de abreviatura).
+
+en directorio djangoGirls ejecutar: python manage.py migrate
+
+para correr el servidor: python manage.py runserver 0.0.0.0:8080
+
+Para crear la aplicación blog: python manage.py startapp blog
+
+
+voy acá: https://tutorial.djangogirls.org/es/django_admin/
