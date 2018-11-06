@@ -26,7 +26,7 @@ SECRET_KEY = 'ah@58%tf^^4(@rgehnm&u-z&)nj1xik731&*xuk5c4xl@wq8#w'
 DEBUG = True
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['127.0.0.1', ' . pythonanywhere.com', 'localhost'] #cambiado
+ALLOWED_HOSTS = ['127.0.0.1', ' . pythonanywhere.com', 'localhost', 'felipero.pythonanywhere.com'] #cambiado
 
 
 
