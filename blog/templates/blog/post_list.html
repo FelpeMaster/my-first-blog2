@@ -3,7 +3,17 @@
         <title>Tutorial de Django Girls blog</title>
     </head>
     <body>
-      <div><h1><a href = "/"> Django chicas Blog </a ></ h1>< / div >{% for post in posts %} <div><p> publicado: {{ post.published_date }} </p ><h1 ><a href = "" >{{ post.title }} </a ></ h1 ><p>{{ post.text|linebreaksbr }} </p ></div>{% endfor %}
+      <div>
+        <h1>
+          <a href = "/"> Sigue el tutorial de Django Girls. </a >
+        </h1>
+        </div >
+        {% for post in posts %}
+        <div>
+        <p> publicado: {{ post.published_date }} </p >
+        <h1 ><a href = "" >{{ post.title }} </a ></ h1 >
+        <p>{{ post.text|linebreaksbr }} </p >
+        </div>{% endfor %}
 
         <div>
             <h1><a href="/">Blog intergaláctico</a></h1>
